@@ -35,5 +35,11 @@ namespace DockerApi.Controllers
             })
             .ToArray();
         }
+
+
+        public string MyName()
+        {
+            return "Sambhaba pani";
+        }
     }
 }
